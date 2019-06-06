@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <title>KIMURA4869</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- フォント -->
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP:400,500,700" rel="stylesheet">
+
+
+  </head>
+
+  <body>
+    <header>
+      <div class="container">
+        <i id="open_menu" class="fas fa-bars"></i>
+        <!-- <nav id="menu" class="shown"> -->
+        <nav id="menu">
+          <i id="close_menu" class="fas fa-times"></i>
+          <ul>
+            <li><a href="#first">Profile</a></li>
+            <li><a href="#second">Skills</a></li>
+            <li><a href="#third">Works</a></li>
+            <li><a href="#fourth">Contact</a></li>
+          </ul>
+        </nav>
+        <h1>KIMURA4869</h1>
+      </div>
+    </header>
+
+    <section class="features">
+
+      <div class="container">
+
+        <h1 class="section-title">About this site</h1>
+
+        <section class="feature profile">
+          <h2 id="first">Profile</h2>
+          <img src="img/prof.jpg">
+          <p>KIMURA4869といいます。フリーでいろいろします。
+      　　</p>
+        </section>
+
+        <section class="feature skills">
+          <h2 id="second">Skills</h2>
+          <img src="img/skills.jpg">
+          <p>使用言語・技術・ソフトウェア<br>
+          ・HTML, CSS, Bootstrap<br>
+          ・Javascript, jQuery, <br>
+          ・SAS<br>
+          ・レスポンシブ対応<br>
+          ・PHP, MySQL, WordPress (勉強中)
+          </p>
+
+        </section>
+
+        <section class="feature works">
+          <h2 id="third">Works</h2>
+          <p>練習で作成したものを紹介します</p>
+          <ul>
+            <li><a target="_blank" href="https://kimura4869.github.io/THE-CONTENTS-NATURE-CLUB/">5ページ　HTML/CSS/jQueryを使用</a></li>
+            <li><a target="_blank" href="https://kimura4869.github.io/REIWAYAKUHIN/">トップページ　HTML/CSS/jQuery/Bootstrapを使用</a></li>
+          </ul>
+        </section>
+
+        <section class="feature contact">
+          <h2 id="fourth">Contact</h2>
+          <img src="img/contact.jpg">
+
+          <div class="contact-block">
+            <p>メールアドレス（必須）</p>
+            <input class="mailad">
+            <p>お問い合わせ内容（必須）</p>
+            <textarea class="qbox"></textarea>
+            <p>※必須項目は必ずご入力ください</p>
+            <input class="contact-submit" type="submit" value="送信">
+          </div>
+
+        </section>
+
+      </div>
+
+    </section>
+
+    <!-- <section class="news">
+      <div class="container">
+        <h1 class="section-title">News</h1>
+        <div class="flex">
+          <article class="news-item">
+            <img src="img/news.png" >
+            <p>hello. hello. hello. hello. hello. hello. hello.
+            hello. hello. hello. hello. hello. hello. hello. </p>
+          </article>
+          <article class="news-item">
+            <img src="img/news.png" >
+            <p>hello. hello. hello. hello. hello. hello. hello.
+            hello. hello. hello. hello. hello. hello. hello. </p>
+          </article>
+          <article class="news-item">
+            <img src="img/news.png" >
+            <p>hello. hello. hello. hello. hello. hello. hello.
+            hello. hello. hello. hello. hello. hello. hello. </p>
+          </article>
+
+        </div>
+
+      </div>
+
+    </section> -->
+
+    <!-- <section class="how-to-use">
+      <div class="container">
+        <h1 class="section-title">How to use</h1>
+        <div class="iframe-wrapper">
+
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/Tbre6iQAvG4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+        </div>
+      </div>
+
+    </section> -->
+
+    <footer>
+      &copy; KIMURA4869
+    </footer>
+
+    <script>
+      (function(){
+        'use strict';
+
+        var openMenu = document.getElementById('open_menu');
+        var closeMenu = document.getElementById('close_menu');
+        var menu = document.getElementById('menu');
+
+        openMenu.addEventListener('click', function() {
+          menu.classList.add('shown')
+        });
+
+        closeMenu.addEventListener('click', function() {
+          menu.classList.remove('shown')
+        });
+
+      })();
+    </script>
+
+  </body>
+</html>
