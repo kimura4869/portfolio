@@ -1,152 +1,185 @@
+
 <!DOCTYPE html>
 <html lang="ja">
-  <head>
-    <meta charset="utf-8">
-    <title>KIMURA4869</title>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
-    <link rel="stylesheet" href="css/styles.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# undefined: http://ogp.me/ns/undefined# fb: http://www.facebook.com/2008/fbml">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,user-scalable=no">
+    <meta name="format-detection" content="telephone=no">
 
-<!-- フォント -->
-    <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP:400,500,700" rel="stylesheet">
+    <title>アニマル株式会社</title>
+
+    <meta name="description" content="株式会社アニマルの公式ウェブサイトです。アニマルはサンプルです。">
+    <meta property="og:title" content="株式会社アニマル">
+    <meta property="og:locale" content="ja">
+    <meta property="og:url" content="http://www.ANIMAL.co.jp/recruit">
+    <meta property="og:description" content="株式会社アニマルの公式ウェブサイトです。アニマルはサンプルです。">
+    <meta property="og:site_name" content="株式会社アニマル">
+    <link rel="canonical" href="http://www.ANIMAL.co.jp/recruit">
+
+
+    <!-- ここでレスポンシブ対応 -->
+    <link rel="stylesheet" href="css/home.css" media="all and (min-width: 1025px)">
+    <link rel="stylesheet" href="css/home_sp.css" media="all and (max-width: 1024px)">
+
+    <link rel="stylesheet"href="css/owl.carousel.css">
+    <!-- カルーセル下部のスライドマークを調節 -->
+    <link rel="stylesheet"href="css/owl.theme.css">
+
+    <!-- jqueryをホストから呼び出し -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+
+    <script type="text/javascript" src="js/owl.carousel.js"></script>
+
+
+    <script type="text/javascript">
+    $(document).ready(function(){
+    $("#owl-example").owlCarousel({
+
+        items : 1,//並べる個数
+        itemsCustom : false, //カスタム機能
+
+        itemsDesktop_D : [1599,1],//デスクトップ大大
+        itemsDesktop : [1199,1],//デスクトップ大
+        itemsDesktopSmall : [980,1],//デスクトップ小
+        itemsTablet: [768,1],//タブレット大
+        itemsTabletSmall: false,//タブレット小
+        itemsMobile : [479,1],//スマホ
+        singleItem : false,//アイテムをひとつにする
+        itemsScaleUp : false,//アイテムを自動的に大きくする
+        autoPlay : true,
+     });
+     });
+
+    </script>
+
+    <script src="js/common.js"></script>
+    <script src="js/home.js"></script>
 
 
   </head>
 
   <body>
-    <header>
-      <div class="container">
-        <i id="open_menu" class="fas fa-bars"></i>
-        <!-- <nav id="menu" class="shown"> -->
-        <nav id="menu">
-          <i id="close_menu" class="fas fa-times"></i>
-          <ul>
-            <li><a href="#first">Profile</a></li>
-            <li><a href="#second">Skills</a></li>
-            <li><a href="#third">Works</a></li>
-            <li><a href="#fourth">Contact</a></li>
-          </ul>
-        </nav>
-        <h1>KIMURA4869</h1>
+
+    <header id="header-root">
+      <div class="hgroup"><a href="./">
+
+        <!-- 6月13日追記 -->
+        <img class="logoc" src="img/logo.jpg">
+        <!-- 以上 -->
+
+          <h1>株式会社アニマル</h1></a>
+        <nav id="header-nav"><a class="y20" id="btn-entry" href="#"><span>2023エントリー 新卒採用</span></a><a class="y21" id="btn-entry" href="#"><span>2021エントリー インターンシップ</span></a><a id="btn-mypage" href="#"><span>ログイン</span></a><a id="btn-toggle" href="#">
+            <div class="top-bar"></div>
+            <div class="mid-bar"></div>
+            <div class="bot-bar"></div></a></nav>
       </div>
+
+      <nav id="global-menu">
+        <ul class="prnt">
+          <li class="on"><a class="n1 prnt" href="#"><span class="en">Home</span><span class="ja">ホーム</span></a></li>
+          <li><a class="prnt" href="#"><span class="en">Business</span><span class="ja">ビジネス</span></a>
+            <ul class="chld n2">
+              <li><a class="chld" href="#">ビジネスA</a></li>
+              <li><a class="chld" href="#">ビジネスB</a></li>
+              <li><a class="chld" href="#">ビジネスC</a></li>
+              <li><a class="chld" href="#">ビジネスD</a></li>
+            </ul>
+          </li>
+          <li><a class="prnt" href="#"><span class="en">Work</span><span class="ja">仕事</span></a>
+            <ul class="chld n3">
+              <li><a class="chld" href="#">アルファ職</a></li>
+              <li><a class="chld" href="#">ベータ職</a></li>
+            </ul>
+          </li>
+          <li><a class="prnt" href="#"><span class="en">Project</span><span class="ja">製品情報</span></a>
+            <ul class="chld n4">
+              <li><a class="chld" href="#">sampleA</a></li>
+              <li><a class="chld" href="#">sampleB</a></li>
+              <li><a class="chld" href="#">sampleC</a></li>
+              <li><a class="chld" href="#">sampleD</a></li>
+            </ul>
+          </li>
+          <li><a class="prnt" href="#"><span class="en">Member</span><span class="ja">開発体制</span></a>
+            <ul class="chld n5">
+              <li><a class="chld" href="#">研究施設</a></li>
+              <li><a class="chld" href="#">ビジネス棟</a></li>
+              <li><a class="chld" href="#">マルチメディア棟</a></li>
+              <li><a class="chld" href="#">研修施設</a></li>
+              <li><a class="chld" href="#">メインホール</a></li>
+            </ul>
+          </li>
+          <li><a class="prnt" href="#"><span class="en">Movie</span><span class="ja">社員紹介</span></a>
+            <ul class="chld n7">
+              <li><a class="chld" href="#">研究職</a></li>
+              <li><a class="chld" href="#">開発職</a></li>
+              <li><a class="chld" href="#">管理職</a></li>
+              <li><a class="chld" href="#">事務職</a></li>
+            </ul>
+          </li>
+          <li><a class="prnt" href="#"><span class="en">Recruit</span><span class="ja">採用</span></a>
+            <ul class="chld n6">
+              <li><a class="chld" href="#">メッセージ</a></li>
+              <li><a class="chld" href="#">募集要項</a></li>
+              <li><a class="chld" href="#">応募方法（新卒）</a></li>
+              <li><a class="chld" href="#">応募方法（中途）</a></li>
+              <li><a class="chld" href="#">その他</a></li>
+              <li><a class="chld" href="#">関連グループでの採用</a></li>
+              <li><a class="chld" href="#">グループ会社　採用情報</a></li>
+            </ul>
+          </li>
+        </ul>
+        <p class="misc">
+          <a class="prnt" href="#" target="_blank">
+            <span class="en">2023 Entry</span>
+          <span class="ja">新卒採用</span>
+          <span class="ico"></span>
+        </a>
+        <a class="prnt" href="#" target="_blank">
+          <span class="en">2023 ENTRY</span>
+          <span class="ja">インターン</span>
+          <span class="ico"></span>
+        </a>
+        <a class="prnt mypage" href="#" target="_blank">
+          <span class="en">マイページ</span>
+          <span class="ja">ログイン</span>
+          <span class="ico"></span>
+        </a>
+      </p>
+      </nav>
+
     </header>
 
-    <section class="features">
 
-      <div class="container">
+    <div id="main">
 
-        <h1 class="section-title">About this site</h1>
+      <header>リクルート 2023</header>
 
-        <section class="feature profile">
-          <h2 id="first">Profile</h2>
-          <img src="img/prof.jpg">
-          <p>KIMURA4869といいます。フリーでいろいろします。
-      　　</p>
-        </section>
+      <div id="owl-example" class="owl-carousel">
 
-        <section class="feature skills">
-          <h2 id="second">Skills</h2>
-          <img src="img/skills.jpg">
-          <p>使用言語・技術・ソフトウェア<br>
-          ・HTML, CSS, Bootstrap<br>
-          ・Javascript, jQuery, <br>
-          ・SAS<br>
-          ・レスポンシブ対応<br>
-          ・PHP, MySQL, WordPress<br>
-          </p>
-
-        </section>
-
-        <section class="feature works">
-          <h2 id="third">Works</h2>
-          <p>案件で作成したサイトの一部を紹介します（※テキスト及び画像はダミーです）</p>
-          <ul>
-            <li><a target="_blank" href="https://kimura4869.github.io/ANIMAL-INC/">トップページ　HTML/CSS/jQueryを使用</a></li>
-            <li><a target="_blank" href="https://kimura4869.github.io/REIWAYAKUHIN/">トップページ　HTML/CSS/jQuery/Bootstrapを使用</a></li>
-            <li><a target="_blank" href="https://kimura4869.github.io/THE-CONTENTS-NATURE-CLUB/">5ページ　HTML/CSS/jQueryを使用</a></li>
-          </ul>
-        </section>
-
-        <section class="feature contact">
-          <h2 id="fourth">Contact</h2>
-          <img src="img/contact.jpg">
-
-          <div class="contact-block">
-            <p>メールアドレス（必須）</p>
-            <input class="mailad">
-            <p>お問い合わせ内容（必須）</p>
-            <textarea class="qbox"></textarea>
-            <p>※必須項目は必ずご入力ください</p>
-            <input class="contact-submit" type="submit" value="送信">
-          </div>
-
-        </section>
+        <div id="owl-cont1"><p class="owltext">ABCD</p></div>
+        <div id="owl-cont2"><p class="owltext">EFGH</p></div>
+        <div id="owl-cont3"><p class="owltext">IJKL</p></div>
+        <div id="owl-cont4"><p class="owltext">MNOP</p></div>
 
       </div>
 
-    </section>
-
-    <!-- <section class="news">
-      <div class="container">
-        <h1 class="section-title">News</h1>
-        <div class="flex">
-          <article class="news-item">
-            <img src="img/news.png" >
-            <p>hello. hello. hello. hello. hello. hello. hello.
-            hello. hello. hello. hello. hello. hello. hello. </p>
-          </article>
-          <article class="news-item">
-            <img src="img/news.png" >
-            <p>hello. hello. hello. hello. hello. hello. hello.
-            hello. hello. hello. hello. hello. hello. hello. </p>
-          </article>
-          <article class="news-item">
-            <img src="img/news.png" >
-            <p>hello. hello. hello. hello. hello. hello. hello.
-            hello. hello. hello. hello. hello. hello. hello. </p>
-          </article>
-
-        </div>
 
       </div>
+    </div>
 
-    </section> -->
 
-    <!-- <section class="how-to-use">
-      <div class="container">
-        <h1 class="section-title">How to use</h1>
-        <div class="iframe-wrapper">
+    <footer class="home" id="footer-root">
 
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/Tbre6iQAvG4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-        </div>
-      </div>
-
-    </section> -->
-
-    <footer>
-      &copy; KIMURA4869
+      <ul>
+        <li><a href="#" target="_blank">グループサイト</a></li>
+        <li><a href="#" target="_blank">ポリシー</a></li>
+        <li><a href="#" target="_blank">サイトマップ</a></li>
+        <li><a href="#">ショートカット</a></li>
+      </ul>
+      <p class="cr">COPYRIGHT &copy; ANIMAL CORPORATION ALL RIGHTS RESERVED.</p>
     </footer>
 
-    <script>
-      (function(){
-        'use strict';
-
-        var openMenu = document.getElementById('open_menu');
-        var closeMenu = document.getElementById('close_menu');
-        var menu = document.getElementById('menu');
-
-        openMenu.addEventListener('click', function() {
-          menu.classList.add('shown')
-        });
-
-        closeMenu.addEventListener('click', function() {
-          menu.classList.remove('shown')
-        });
-
-      })();
-    </script>
 
   </body>
 </html>
